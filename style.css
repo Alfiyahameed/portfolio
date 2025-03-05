@@ -102,7 +102,7 @@ section.active{
     display: inline-block;
     color: transparent;
     -webkit-text-stroke: .07rem var(--main-color);
-    animation:display-text 10s linear infinite;
+    animation:display-text 8s linear infinite;
     animation-delay: calc(-4s*var(--i));
 }
 
