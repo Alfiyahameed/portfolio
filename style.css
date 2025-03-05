@@ -2,7 +2,7 @@
 
 *{
     margin: 0;
-    padding: 0%;
+    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     outline:none;
@@ -102,7 +102,7 @@ section.active{
     display: inline-block;
     color: transparent;
     -webkit-text-stroke: .07rem var(--main-color);
-    animation:display-text 16s linear infinite;
+    animation:display-text 6s linear infinite;
     animation-delay: calc(-4s*var(--i));
 }
 
@@ -202,60 +202,6 @@ section.active{
     100%{
         transform: rotate(360deg);
     }
-}
-
-/* services-section */
-.heading{
-    font-size: 4.5rem;
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.heading span{
-    color: var(--main-color);
-}
-
-.services-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
-    gap: 2rem;
-}
-
-.services-container .service-box{
-    padding: 3rem 2.5rem;
-    background-color: var(--second-bg-color);
-    border: .2rem solid var(--main-color);
-    border-radius: 1rem;
-    transition: .5s;
-}
-
- .services-container .service-box:hover{
-    border-color: var(--main-color);
-    transform: scale(1.02);
-} 
-
- .service-box .icon{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} 
-
-.service-box .icon i{
-    font-size: 4.5rem;
-    transition: .5s;
-}
-
-.service-box:hover .icon :not(a i){
-    color: var(--main-color);
-}
-
-.service-box h3{
-    font-size: 2.5rem;
-    margin: .5rem 0 2rem;
-}
-
-.service-box p{
-    font-size: 1.6rem;
 }
 
 /* resume-section */
